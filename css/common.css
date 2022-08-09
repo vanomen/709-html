@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5dc;
+    
+    
+}
+:root {
+    --text-color: rgb(0, 0, 0);
+    --border-color: grey;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    color: var(--text-color);
+}
+
+img {
+    display: block;
+
+}
+.button{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
